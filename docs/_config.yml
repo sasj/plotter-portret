@@ -25,6 +25,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sasj
 
+
 # Build settings
 # theme: minima
 remote_theme: sighingnow/jekyll-gitbook
@@ -32,7 +33,7 @@ plugins:
   # - jekyll-feed
   - jekyll-readme-index
   - jemoji
-
+  - jekyll-remote-theme
 
 syntax_highlighter_style: colorful
 
@@ -51,13 +52,10 @@ kramdown:
   syntax_highlighter_opts:
     guess_lang:           true
 
-syntax_highlighter_style: colorful
-
 markdown_ext:             markdown,mkdown,mkdn,mkd,md
 
 exclude:
   - _drafts
-
 
 collections:
   pages:
