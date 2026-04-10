@@ -5,7 +5,7 @@ date:   2026-04-08
 categories: plotter
 ---
 
-<img src="/assets/images/PoC_logo.png" width="400">
+<img src="/images/PoC_logo.png" width="400">
 
 # Piece of Code
 
@@ -23,7 +23,7 @@ Kunstenaar, creative coder, interactie ontwerper, live coder.
 
 [https://sasj.tumblr.com/archive](https://sasj.tumblr.com/archive)
 
-<img src="/assets/images/IMG_6582_compressed.png" width="600">
+<img src="/images/IMG_6582_compressed.png" width="600">
 
 
 
