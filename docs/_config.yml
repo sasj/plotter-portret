@@ -36,8 +36,6 @@ plugins:
   - jemoji
   - jekyll-remote-theme
 
-
-
 toc:
     enabled: true
 
