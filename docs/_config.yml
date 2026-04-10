@@ -22,6 +22,7 @@ title: Plotter Portret
 description: >- # this means to ignore newlines until "baseurl:"
  Plotter Portret workshop with p5.js
 baseurl: "/plotter-portret" # the subpath of your site, e.g. /blog
+# baseurl: ""
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  sasj
 
@@ -33,9 +34,9 @@ plugins:
   # - jekyll-feed
   - jekyll-readme-index
   - jemoji
-  # - jekyll-remote-theme
+  - jekyll-remote-theme
 
-syntax_highlighter_style: colorful
+
 
 toc:
     enabled: true
@@ -51,6 +52,9 @@ kramdown:
   syntax_highlighter:     rouge
   syntax_highlighter_opts:
     guess_lang:           true
+    default_lang:         javaScript
+
+syntax_highlighter_style: base16
 
 markdown_ext:             markdown,mkdown,mkdn,mkd,md
 
